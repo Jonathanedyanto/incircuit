@@ -26,7 +26,7 @@
   // Nilai bawaan di atas. Selama belum diganti, tombol kontak menampilkan peringatan
   // agar pesan tidak terkirim ke nomor orang lain secara tidak sengaja.
     const PLACEHOLDER = {
-    whatsapp: '6281295871024',
+    whatsapp: '6281234567890',
     email: 'InCircuit@gmail.com',
   };
 
@@ -45,7 +45,7 @@
 
   /* ==================== 2. PENERAPAN IDENTITAS ==================== */
    function waUrl(text) {
-    return 'https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(text);
+    return 'https://wa.me /' + CONFIG.whatsapp + '?text=' + encodeURIComponent(text);
   }
 
   function applyIdentity() {
