@@ -17,7 +17,7 @@
   /* ===== UBAH DI SINI: identitas perusahaan ===== */
   const CONFIG = {
     brandName: 'InCircuit',          // nama perusahaan
-    whatsapp: '081295871024',            // nomor WhatsApp: awali 62, tanpa +, tanpa 0 di depan, tanpa spasi/strip
+    whatsapp: '6281295871024',            // nomor WhatsApp: awali 62, tanpa +, tanpa 0 di depan, tanpa spasi/strip
     email: 'Incircuit@gmail.com',            // alamat email
     instagram: 'InCircuit'  // username Instagram, tanpa @
   };
@@ -25,9 +25,9 @@
 
   // Nilai bawaan di atas. Selama belum diganti, tombol kontak menampilkan peringatan
   // agar pesan tidak terkirim ke nomor orang lain secara tidak sengaja.
-  const PLACEHOLDER = {
-    whatsapp: '081295871024',
-    instagram: 'username_instagram_anda'
+    const PLACEHOLDER = {
+    whatsapp: '6281295871024',
+    email: 'InCircuit@gmail.com',
   };
 
   const isWaInvalid = () =>
@@ -44,7 +44,7 @@
   document.documentElement.classList.add('js');
 
   /* ==================== 2. PENERAPAN IDENTITAS ==================== */
-  function waUrl(text) {
+   function waUrl(text) {
     return 'https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(text);
   }
 
@@ -315,4 +315,5 @@
   /* ==================== MULAI ==================== */
   applyIdentity();
   onScroll();
+  
 })();

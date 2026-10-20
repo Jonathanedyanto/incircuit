@@ -643,3 +643,7 @@ h3 { font-size: 1.15rem; font-weight: 600; }
   .contact-form-wrap { padding: 24px 20px; }
   .back-to-top { right: 16px; bottom: 16px; }
 }
+.img-contain {
+  object-fit: contain;
+  background: var(--navy-dark);
+}
