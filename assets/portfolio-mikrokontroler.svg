@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Ilustrasi papan mikrokontroler dengan chip, kristal, dan header pin">
+  <rect width="640" height="420" fill="#061430"/>
+  <rect x="30" y="20" width="580" height="380" rx="18" fill="#0B4F5C" stroke="#5EEAD4" stroke-width="3"/>
+
+  <g fill="none" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M272 143 V104 L160 76 V50"/>
+    <path d="M286 143 V104 L208 76 V50"/>
+    <path d="M300 143 V104 L256 76 V50"/>
+    <path d="M314 143 V104 L304 76 V50"/>
+    <path d="M328 143 V104 L352 76 V50"/>
+    <path d="M342 143 V104 L400 76 V50"/>
+    <path d="M356 143 V104 L448 76 V50"/>
+    <path d="M370 143 V104 L496 76 V50"/>
+
+    <path d="M272 277 V316 L160 344 V370"/>
+    <path d="M286 277 V316 L208 344 V370"/>
+    <path d="M300 277 V316 L256 344 V370"/>
+    <path d="M314 277 V316 L304 344 V370"/>
+    <path d="M328 277 V316 L352 344 V370"/>
+    <path d="M342 277 V316 L400 344 V370"/>
+    <path d="M356 277 V316 L448 344 V370"/>
+    <path d="M370 277 V316 L496 344 V370"/>
+
+    <path d="M253 192 H160"/>
+    <path d="M253 206 H160"/>
+    <path d="M387 192 H480"/>
+    <path d="M387 234 H540"/>
+  </g>
+
+  <g stroke="#CBD5E1" fill="none" stroke-linecap="round">
+    <line x1="160" y1="50" x2="496" y2="50" stroke-width="16" stroke-dasharray="0 48"/>
+    <line x1="160" y1="370" x2="496" y2="370" stroke-width="16" stroke-dasharray="0 48"/>
+  </g>
+
+  <g stroke="#CBD5E1" fill="none">
+    <line x1="268" y1="143" x2="378" y2="143" stroke-width="14" stroke-dasharray="8 6"/>
+    <line x1="268" y1="277" x2="378" y2="277" stroke-width="14" stroke-dasharray="8 6"/>
+    <line x1="253" y1="160" x2="253" y2="270" stroke-width="14" stroke-dasharray="8 6"/>
+    <line x1="387" y1="160" x2="387" y2="270" stroke-width="14" stroke-dasharray="8 6"/>
+  </g>
+
+  <rect x="260" y="150" width="120" height="120" rx="6" fill="#061430" stroke="#CBD5E1" stroke-width="2"/>
+  <circle cx="274" cy="164" r="4" fill="#5EEAD4"/>
+  <text x="320" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#5EEAD4">MCU</text>
+
+  <rect x="90" y="178" width="70" height="40" rx="20" fill="#134E5E" stroke="#5EEAD4" stroke-width="2"/>
+  <text x="125" y="203" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5EEAD4">XTAL</text>
+
+  <circle cx="492" cy="192" r="11" fill="#5EEAD4"/>
+  <circle cx="540" cy="234" r="8" fill="#CBD5E1"/>
+</svg>
