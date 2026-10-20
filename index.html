@@ -235,19 +235,23 @@
       </div>
     </section>
 
-    <!-- ===== F. PORTOFOLIO ===== -->
+       <!-- ===== F. PORTOFOLIO ===== -->
     <section class="section" id="portofolio">
       <div class="container">
         <div class="section-head reveal">
           <p class="eyebrow">Portofolio</p>
           <h2>Contoh Desain</h2>
+
+          <!-- [DIGANTI] Catatan: sekarang ada 2 desain pribadi dan 1 contoh konseptual -->
           <p class="portfolio-note">
-            Catatan: <strong>PCB Berbasis ESP32</strong> adalah desain pribadi. Dua kartu lainnya adalah
-            <strong>contoh konseptual</strong> untuk menggambarkan jenis layanan, bukan proyek klien.
+            Catatan: <strong>PCB Berbasis ESP32</strong> dan <strong>PCB </strong> adalah desain pribadi.
+            Kartu <strong>PCB Mikrokontroler</strong> adalah contoh konseptual, bukan proyek klien.
           </p>
         </div>
 
         <div class="portfolio-grid">
+
+          <!-- [TETAP] Kartu 1 (besar): memanggil assets/pcb.png -->
           <article class="portfolio-card portfolio-large reveal">
             <img class="img-contain" src="assets/pcb.png" alt="Tampilan layout PCB dengan modul ESP32, regulator tegangan, konektor, dan jalur dua lapisan" width="516" height="706" loading="lazy">
             <div class="portfolio-body">
@@ -258,16 +262,22 @@
             </div>
           </article>
 
+          <!-- [DIGANTI] Kartu 2: dulu "PCB Sensor IoT" dengan hero-pcb.svg.
+               Sekarang memanggil assets/lina-pcb.png.
+               - class="img-contain" ditambahkan agar gambar tidak terpotong
+               - badge diganti menjadi "Desain Pribadi"
+               - judul, deskripsi, dan tags diganti sesuai gambar Lina -->
           <article class="portfolio-card reveal">
-            <img src="assets/hero-pcb.svg" alt="Ilustrasi konsep PCB sensor IoT dengan jalur tembaga" width="640" height="480" loading="lazy">
+            <img class="img-contain" src="assets/lina-pcb.png" ...>
             <div class="portfolio-body">
-              <span class="badge">Contoh Konseptual</span>
-              <h3>PCB Sensor IoT</h3>
-              <p>Konsep papan kompak untuk sensor dan modul komunikasi nirkabel pada perangkat IoT.</p>
-              <p class="tags">IoT · Sensor · Kompak</p>
+              <span class="badge">Desain Pribadi</span>
+              <h3>PCB </h3>
+              <p>Tampilan 3D papan dengan modul ESP32, konektor sensor, kapasitor, dan regulator tegangan.</p>
+              <p class="tags">ESP32 · Tampilan 3D · Konektor</p>
             </div>
           </article>
 
+          <!-- [TETAP] Kartu 3: memanggil assets/portfolio-mikrokontroler.svg -->
           <article class="portfolio-card reveal">
             <img src="assets/portfolio-mikrokontroler.svg" alt="Ilustrasi konsep PCB mikrokontroler dengan chip, kristal, dan header pin" width="640" height="420" loading="lazy">
             <div class="portfolio-body">
@@ -277,10 +287,10 @@
               <p class="tags">Mikrokontroler · Layout · Routing</p>
             </div>
           </article>
+
         </div>
       </div>
     </section>
-
     <!-- ===== G. ALUR PEMESANAN ===== -->
     <section class="section section-light" id="alur">
       <div class="container">
